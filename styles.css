@@ -1,0 +1,9 @@
+.mySwiper {
+  padding: 20px;
+  border: 2px;
+
+}
+
+.swiper-pagination-bullet {
+  background-color: #EE1B25;
+}

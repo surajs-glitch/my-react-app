@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-border-left {
+    border-left: 6px solid;
+    border-image: linear-gradient(180deg, rgba(238, 27, 37, 1) 0%, rgba(238, 27, 37, 0) 100%) 1;
+}
+.gradient-border-b {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  ) 1;
+}
+
+.gradient-border-l {
+  border-left: 1px solid;
+  border-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0.5) 100%
+  ) 1;
+}
+
+.small-marker li::marker {
+  font-size: 0.6em; /* Or try 0.4em, 8px, etc. */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
